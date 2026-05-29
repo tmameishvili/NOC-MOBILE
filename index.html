@@ -10,11 +10,12 @@
 </head>
 <body>
   <div id="app">იტვირთება შპარგალკა...</div>
-  <script>
+ <script>
     window.$docsify = {
       name: '🔧 სამუშაო ინსტრუქციები',
       repo: '',
-      loadSidebar: true, // ჩავრთოთ მენიუ
+      loadSidebar: true, // აუცილებელია მენიუსთვის
+      alias: { '/.*/': '/_sidebar.md' }, // აი ეს ხაზი ჩაამატე ზუსტად!
       subMaxLevel: 2,
       search: {
         maxAge: 86400000,
